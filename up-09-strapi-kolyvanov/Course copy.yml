@@ -1,0 +1,15 @@
+info:
+  name: Course copy
+  type: http
+  seq: 6
+
+http:
+  method: GET
+  url: "{{url}}api/groups"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

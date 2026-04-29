@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_shared_contents",
+  "info": {
+    "displayName": "Content",
+    "icon": "cup"
+  },
+  "options": {},
+  "attributes": {
+    "Lecture": {
+      "type": "richtext"
+    },
+    "Screenshot": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

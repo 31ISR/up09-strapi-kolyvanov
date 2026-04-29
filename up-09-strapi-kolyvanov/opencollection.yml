@@ -1,0 +1,29 @@
+opencollection: 1.0.0
+
+info:
+  name: up-09-strapi-kolyvanov
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ""
+      port: ""
+      auth:
+        username: ""
+        password: ""
+      bypassProxy: ""
+
+request:
+  headers:
+    - name: Authorization
+      value: Bearer 765cb279de87fddc45a514899179dd7a55a9a02144f2273617437679f857b69d269d062cb4a26ad315286eb13fa92e641f9dcd578751c13f00b78b7a743b1a9e1c6e00d9deb69c1caf0788c990d2929731fd880a86838913898ab3a7a1f914b444f2897324ad037f48a47f2c2be6467403f2521b87f63e5ad81db10cf9d6cb00
+  variables:
+    - name: url
+      value: https://organic-fiesta-pjw674775vj929pwp-1337.app.github.dev/
+bundled: false
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git
